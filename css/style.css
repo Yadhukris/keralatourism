@@ -1,0 +1,166 @@
+.logomargin
+{
+margin-left: -25%;
+}
+/* .navbaritems
+{
+ font-family: 'Times New Roman', Times, serif; 
+ border: 1px solid wheat;
+ margin: 10%;
+} */
+.exploresection
+{
+    text-align: center;
+    color:rgb(5, 5, 5);
+}
+.mustexplorecardptag 
+{
+text-align: center;
+}
+.mustexplorecardptag h5
+{
+    color: rgb(145, 31, 31);
+}
+body
+{
+    background-size: cover;
+    
+}
+/* .mustexploretag a
+{
+    text-decoration: none;
+} */
+
+/* .grid-container {
+    grid-row-gap: 50px;
+  } */
+
+.aboutcontent
+{
+    border: 2px  orange;
+    height: 180px;
+    /* width: 350px; */
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.abouttopimage b
+{
+font-size:xx-large;
+font-style: oblique;
+text-transform: uppercase;
+color: chocolate;
+}
+.abouttopimage p
+{
+    font-size: large;
+    color: white
+}
+#aboutimgblur
+{
+    -webkit-filter: blur(3px); 
+    filter: blur(3px);
+}
+#districtheadercard
+{
+    background-color: rgb(228, 191, 27);
+}
+#districtheadercardh
+{
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.alldistrict h5
+{
+text-align: center;
+}
+.alldistrict a
+{
+    text-decoration: none;
+}
+
+.alldistrictborder
+{
+    border: 4px solid red;
+}
+.alldistrictaln
+{
+    margin-left: 5%;
+    column-gap: 2em;
+    
+}
+
+.districtdropdown
+{
+    float: right;
+    margin-right: 2%;
+    
+}
+.districthotspot h3
+{
+
+color: black;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.districthotspot p
+{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ptag p
+{
+    color: black;
+}
+.signinform
+{
+    border: 5px rgb(253, 122, 0) solid;
+    height: 500px;
+    width: 500px;
+    margin-left: 35%;
+    padding: 10px;
+    text-align: center;
+}
+.signinform h1
+{
+    color: coral;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.signinform a
+{
+    text-decoration: none;
+    color: red;
+}
+.signinforminside
+{
+    padding: 1%;
+}
+.signinpage
+{
+    border: 5px rgb(253, 122, 0) solid;
+    height: 600px;
+    width: 500px;
+    margin-left: 35%;
+    padding: 10px;
+    text-align: center;
+}
+
+.signinpage h1
+{
+    color: coral;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.signinpage a
+{
+    text-decoration: none;
+    color: red;
+}
+.strongchara
+{
+    color: red;
+}

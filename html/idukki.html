@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body background="../images/backgroundhome/b4.jpg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo/kerala-tourism-title.png" alt="">
+            </a>
+            <div class=" navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="../index.html"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="./about.html"><B>ABOUT</B></a>
+                    </li>
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="./login.html"><B>lOGIN</B></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <B>EXPLORE</B>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- <li><a class="dropdown-item " href="#">PLACES TO VISIT</a></li> -->
+                            <li><a class="dropdown-item " href="./district.html">TRAVEL DISTRICT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- breadcrump -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm">HOME</button></a></li>
+            <li class="breadcrumb-item"><a href="./district.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm">DISTRICT</button></a></li>
+            <li class="breadcrumb-item disabled"><a href="./idukki.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm  ">IDUKKI</button></a></li>
+        </ol>
+    </nav>
+
+    <!-- topimage -->
+    <div class="conatiner">
+        <div class="card bg-dark text-white">
+            <img src="../images/district/idukki/bg1.jpg" height="1800px" class="card-img " id="aboutimgblur" alt="...">
+            <div class="card-img-overlay abouttopimage">
+                <h5 class="card-title m-5 text-center "><b style="color: aqua;">IDUKKI</b></h5>
+                <div class="conatiner aboutcontent">
+                    <p class="card-text ">Idukki  is a district in the Indian state of Kerala. 
+                        It was constituted on 26 January 1972, by splitting the district of Kottayam into two parts. 
+                        Its division was previously headquartered at Kottayam city,
+                         but moved to Kuyilimala near Painavu and Cheruthoni in June 1976. 
+                        Idukki district lies amid the Western Ghats of Kerala</p>
+                    <p>Though it is the second-largest district in the region in terms of area, 
+                        it has the lowest population density among the districts of Kerala.
+                         The urban population is higher than the rural population. 
+                        Idukki is rich in forests and thus is also known as the "Spice Garden of Kerala</p>
+
+                </div>
+                <h5 class="card-title m-5 text-center "><b style="color: aqua;">HOTSPOTS</b></h5>
+                <!-- placestovisit -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/idukki/hwp1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Hill View Park</h3>
+                                    <p class="card-text">Located just about a kilometre from the Idukki city centre, the Hill View Park is set up approximately 350 feet from the Idukki dam. As the name suggests, Hill View Park is one such places in Idukki that offers spectacular views of the Cheruthoni and Idukki Dams.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/idukki/kdam1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Kulamavu Damh</h3>
+                                    <p class="card-text">Situated in Kulamavu, the Kulamavu Dam is a gravity dam. The dam part of three dams dedicated to the Idukki Hydro Electric Power Plant that also encloses a manmade lake. Although quite mundane, this dam is a good place for some short sightseeing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/idukki/nan.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Nadukani</h3>
+                                    <p class="card-text">After all the blessings from temples, it is time for some adventure. Nadukani is one such place nestled amid the wilderness of nature and densely wooded hills offering its visitors a beautiful trail for trekking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/idukki/pnp1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Periyar National Park</h3>
+                                    <p class="card-text">The Periyar National Park in Thekkady, Kerala, is one of the most bio-diverse regions in the world and the best-protected reserve area that one can lay eyes on in India. Famous for its gorgeousness, greenery and stillness, the park is the dwelling place of abundant significant species, including the royal tigers and majestic elephants apart from other reptiles, fishes and birds. This National Park is an amazing coming together of nature, adventure and beauty. A place which allows you the peace and serenity you so desire, an opportunity to be one with nature and just a normal sighting of a Tiger or two, Periyar National Park is full of beautiful sights and sounds.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

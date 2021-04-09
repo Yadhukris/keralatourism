@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body background="../images/backgroundhome/b4.jpg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo/kerala-tourism-title.png" alt="">
+            </a>
+            <div class=" navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="../index.html"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="./about.html"><B>ABOUT</B></a>
+                    </li>
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="./login.html"><B>lOGIN</B></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <B>EXPLORE</B>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- <li><a class="dropdown-item " href="#">PLACES TO VISIT</a></li> -->
+                            <li><a class="dropdown-item " href="./district.html">TRAVEL DISTRICT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- breadcrump -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm">HOME</button></a></li>
+            <li class="breadcrumb-item"><a href="./district.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm">DISTRICT</button></a></li>
+            <li class="breadcrumb-item disabled"><a href="./wayanad.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm  ">wayanad</button></a></li>
+        </ol>
+    </nav>
+
+    <!-- topimage -->
+    <div class="conatiner">
+        <div class="card bg-dark text-white">
+            <img src="../images/district/wynd/bg1.jpg" height="1900px" class="card-img " id="aboutimgblur" alt="...">
+            <div class="card-img-overlay abouttopimage">
+                <h5 class="card-title m-5 text-center "><b style="color: aqua;">WAYANAD</b></h5>
+                <div class="conatiner aboutcontent ">
+                    <p class="card-text  ">Wayanad district is bordered by Karnataka to north and north-east,
+                        Tamil Nadu to the south-east, Malappuram to south, Kozhikode to the south-west and Kannur to the
+                        north-west. Pulpally in Wayanad boasts of the only Lava- Kusha temple in Kerala and Vythiri
+                        has the only mirror temple in Kerala which is a Jain temple.
+                    <p class="card-text ">
+                        People of Wayanad live in absolute harmony with each other. Wayanad is famous for the
+                        unparalleled freedom fight against the British and martyrdom of Pazhasshi Raja with the help of
+                        the Kurichya sect of the tribal community in association with Hindus and Muslims of the Malabar
+                        region
+                </div>
+                <h5 class="card-title m-5 text-center "><b style="color: aqua;">HOTSPOTS</b></h5>
+                <!-- placestovisit -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/wynd/banasura.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Banasura Sagar Dam</h3>
+                                    <p class="card-text">Lying in the lap of the Banasura hills in the Wayanad district
+                                        is the picturesque Banasura Sagar dam. Banasura Dam is the largest earthen dam
+                                        in the country and the second-largest in Asia. The view of the sprawling
+                                        reservoir from the top of the dam is breathtaking. Adventures like speed boating
+                                        are readily available, and a trek up to the Banasura Peak is filled with
+                                        streams, diverse flora, fauna, lush tropical green and majestic waterfalls </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/wynd/wildlife.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Wayanad Wildlife Sanctuary</h3>
+                                    <p class="card-text">Wayanad Wildlife Sanctuary is the second largest wildlife
+                                        sanctuary in Kerala and comprises of rare as well as endangered species of both
+                                        flora and fauna. It is surrounded by the protected areas of Mudumalai in Tamil
+                                        Nadu as well as Nagarhole and Bandipur in Karnataka.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/wynd/park.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Chembra Peak</h3>
+                                    <p class="card-text">Located close to Meppady and just 8 km south of Kalpetta,
+                                        stands the highest peak of the Wayanad Hill Range- the Chembra Peak at an
+                                        altitude of 2000 meters above sea level. The Chembra peak offers a panoramic
+                                        view of not only the entire Wayanad district but also a large chunk of
+                                        Kozhikode, Malappuram and Niligiri districts.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/wynd/caves.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Edakkal Caves</h3>
+                                    <p class="card-text">Famous for its exquisite rock and wall carvings, the
+                                        pre-historic Edakkal Caves are two naturally occurring alcoves located in the
+                                        Wayanad district of Kerala.Edikkal literally means 'a stone in between' and
+                                        aptly describes its formation. A smaller rock has wedged in between 2 bigger
+                                        ones to form a natural cave. To explore the caves visitors have to pass uneven
+                                        boulders, an iron ladder and rock walls covered with fungi. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

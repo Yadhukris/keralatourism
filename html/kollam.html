@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body background="../images/backgroundhome/b4.jpg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo/kerala-tourism-title.png" alt="">
+            </a>
+            <div class=" navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="../index.html"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="./about.html"><B>ABOUT</B></a>
+                    </li>
+                    <li class="nav-item navbaritems">
+                        <a class="nav-link active" aria-current="page" href="./login.html"><B>lOGIN</B></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <B>EXPLORE</B>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- <li><a class="dropdown-item " href="#">PLACES TO VISIT</a></li> -->
+                            <li><a class="dropdown-item " href="./district.html">TRAVEL DISTRICT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- breadcrump -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm">HOME</button></a></li>
+            <li class="breadcrumb-item"><a href="./district.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm">DISTRICT</button></a></li>
+            <li class="breadcrumb-item disabled"><a href="./kollam.html"><button type="button"
+                        class="btn btn-outline-warning btn-sm  ">KOLLAM</button></a></li>
+        </ol>
+    </nav>
+
+    <!-- topimage -->
+    <div class="conatiner">
+        <div class="card bg-dark text-white">
+            <img src="../images/district/kollam/bg1.jpg" height="1950px" class="card-img " id="aboutimgblur" alt="...">
+            <div class="card-img-overlay abouttopimage">
+                <h5 class="card-title m-5 text-center "><b style="color: aqua;">KOLLAM</b></h5>
+                <div class="conatiner aboutcontent ">
+                    <p class="card-text text-dark ">Kollam district (formerly Quilon) is one of 14 districts of the
+                        state of Kerala, India. The district has a cross-section of Kerala's natural attributes; it is
+                        endowed with a long coastline, a major Laccadive Sea seaport and an inland lake (Ashtamudi
+                        Lake). The district has many water bodies. Kallada River is one among them, and the east side
+                        land of river is East Kallada and the west side land is West Kallada.</p>
+                </div>
+                <h5 class="card-title m-5 text-center "><b style="color: aqua;">HOTSPOTS</b></h5>
+                <!-- placestovisit -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/kollam/thevpalace1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Thevally Palace</h3>
+                                    <p class="card-text">A place of great historic importance, Thevally Palace is
+                                        situated on the banks of Ashtamude Lake. Once served as the home of Maharaja of
+                                        Travancore, it was constructed under the rule of Gauri Parvathi Bai between 1800
+                                        and 1819. The striking feature about the palace is that it presents an
+                                        intriguing fusion of Dutch, English and Portuguese style of architecture.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/kollam/jatayu1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Jatayu Nature Park</h3>
+                                    <p class="card-text">Jatayu Nature Park is a rock-themed park which got opened on
+                                        November 25, 2017. Built to promote mythology and adventure tourism, the tourism
+                                        centre boasts of 6D theatre, a digital audio-visual room, cable car and
+                                        ayurvedic cave resort. It is also home to umpteen adventure activities including
+                                        paintball, laser tag, archery, bouldering, rock climbing, air-rifle shooting
+                                        etc. The primary attraction of the park, however, is the world's largest
+                                        stone-cut bird sculpture replicating Jatayu, the mythical bird from Ramayana.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/kollam/Amritapuri2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Amritapuri</h3>
+                                    <p class="card-text">Ashram of Amritapuri has been constructed at the same place
+                                        where Sri Mata Amritanandamayi Devi was born. People from all over the world,
+                                        flock in to seek the blessings of Amma. The people residing in the ashram and
+                                        all the disciplines of Amma have given up their life in the salvation of God and
+                                        making the world a better place to live in. Amma makes sure to listen to each
+                                        and every child who comes to her 'darshan' and solve each of their problems with
+                                        an effective solution.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="../images/district/kollam/ashtamudilake1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body districthotspot">
+                                    <h3 class="card-title">Ashtamudi Lake</h3>
+                                    <p class="card-text">TThe second largest lake in Kerala, Ashtamudi Lake is situated
+                                        in the Kollam district. The lake runs over a length of 16 kilometres and covers
+                                        almost 30% of the town of Kollam. Its name, Ashtamudi has been derived from two
+                                        words 'Ashta' meaning eight and 'Mudi' meaning branch, thereby stating the fact
+                                        that lake has eight branches. All the eight branches converge into a single
+                                        channel that meets with the Arabian Sea. The lake is fed by the major river,
+                                        Kallada. Coconut trees and palms surround the entire vicinity of the lake adding
+                                        to its beauty.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
