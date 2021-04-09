@@ -53,21 +53,22 @@ function phonenumber() {
 function fillall() {
 
     let x = phonenumber();
-    let z= passwordsame();
+    let z = passwordsame();
     let y = passwordChanged();
 
-    if (x == false ) {
+    if (x == false) {
         alert("Enter phone number correctly : Should contain 10 numbers only, it can be of the formats(XXX-XXX-XXXX, XXX.XXX.XXXX, XXX XXX XXXX)");
         return false;
     }
-    else if (y== false) {
+    else if (y == false) {
         alert("Enter a strong password");
         return false;
     }
-    else if(z==false) {
+    else if (z == false) {
+        alert("Re-Enter the same Password");
         return false;
     }
-    else{
+    else {
         return true;
     }
 }
