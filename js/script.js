@@ -8,13 +8,16 @@ function passwordChanged() {
         strength.innerHTML = 'Type Password';
     } else if (false == enoughRegex.test(pwd.value)) {
         strength.innerHTML = '<span style="color:red"><b>add more characters</b></span>';
+        return false;
     } else if (strongRegex.test(pwd.value)) {
         strength.innerHTML = '<span style="color:green"><b>Strong!</b></span>';
         return true;
     } else if (mediumRegex.test(pwd.value)) {
         strength.innerHTML = '<span style="color:orange"><b>Medium!</b></span>';
+        return false;
     } else {
         strength.innerHTML = '<span style="color:red"><b>Weak!</b></span>';
+        return false;
     }
 }
 
@@ -49,26 +52,46 @@ function phonenumber() {
 
 function fillall() {
 
-    var x = phonenumber();
-    var y = passwordsame();
-    var z = passwordChanged();
-    if (x == true && y == true && z == true) {
-        alert("success");
-        return true;
-    }
-    else if (x != true && y == true && z == true) {
+    let x = phonenumber();
+    let z= passwordsame();
+    let y = passwordChanged();
+
+    if (x == false ) {
         alert("Enter phone number correctly : Should contain 10 numbers only, it can be of the formats(XXX-XXX-XXXX, XXX.XXX.XXXX, XXX XXX XXXX)");
         return false;
     }
-    else if (x == true && y == true && z != true) {
+    else if (y== false) {
         alert("Enter a strong password");
         return false;
     }
-    else if (x == true && y != true && z == true){
-        alert("Renetr the same password")
+    else if(z==false) {
         return false;
     }
+    else{
+        return true;
+    }
 }
+//     if (x == true && y == true && z == true) {
+//         alert("success");
+//         return true;
+//     }
+//     else if (x != true && y == true && z == true) {
+//         alert("Enter phone number correctly : Should contain 10 numbers only, it can be of the formats(XXX-XXX-XXXX, XXX.XXX.XXXX, XXX XXX XXXX)");
+//         return false;
+//     }
+//     else if (x == true && y == true && z != true) {
+//         alert("Enter a strong password");
+//         return false;
+//     }
+//     else if (x == true && y != true && z == true){
+//         alert("Renetr the same password")
+//         return false;
+//     }
+//     else if(x != true || y != true || z != true){
+//         alert("Fill details correctly")
+//         return false;
+//     }
+// }
 
 
 
